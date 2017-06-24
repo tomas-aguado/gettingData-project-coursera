@@ -22,8 +22,8 @@ The following actions are performed by the script in order to obtain an independ
 9. We write the dataframe to a txt file.
 
 # Installation and script running process
-1. Download the UHCI dataset from the root folder following the exact folder structure
-2. Copy the run_analysis.R script in the parent folder of the dataset
+1. Download the UHCI dataset from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) folder following the exact folder structure of the ZIP.
+2. Copy the run_analysis.R script in the parent folder of the dataset (just next to the UCI HAR dataset created after descompressing the dataset).
 3. Change the working directory to the folder where the R script is contained if needed using the setwd() command
 4. Install the reshape2 library if needed 
 5. Run the script using source(run_analysis.R) from this folder, and file called tidydata.txt containing the tidy dataset should be generated.
