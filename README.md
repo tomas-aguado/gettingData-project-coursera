@@ -12,7 +12,7 @@ This script performs the following operations over the UCI HAR dataset:
 The following actions are performed by the script in order to obtain an independent tidy data set with the average of each variable for each activity and each subject. This information is contained in the script as code comments:
 
 1. First of all the needed data is loaded into different dataframes, we load only the activity labels in order to correctly merge it with the activity codes.
-2. Once the data is loaded, we prepare a template to filter only the fields containin standard and mean deviation using the grepl command. This template will be used later to filter the data we don't need.
+2. Once the data is loaded, we prepare a template to filter only the fields containing standard and mean deviation using the grepl command. This template will be used later to filter the data we don't need.
 3. Then the test and train data is prepared following a similar process: first we change the column names to fit with descriptive names using the right column of the Feature dataset, then we update the Y dataframe with the activity labels.
 4. Finally we filter the train and test dataframes with the template prepared in step 2 and we fuse the columns using cbind.
 5. Once done, we fuse the rows of both train and test data using the rbind command
