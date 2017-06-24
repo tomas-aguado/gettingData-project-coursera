@@ -1,8 +1,8 @@
 # Codebook
 
-## The dataset is included in the UCI HAR Dataset folder following the folder structure defined in the ZIP provided. It contains the following files:
+## The dataset is included in the UCI HAR Dataset that can be downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) it's mandatory to follow the folder structure defined in the ZIP provided in order for the script to work. It contains the following files:
 
-* 'features_info.txt': Shows information about the variables used on the feature vector.
+* features_info.txt': Shows information about the variables used on the feature vector.
 
 * 'features_info.txt': Shows information about the variables used on the feature vector.
 
